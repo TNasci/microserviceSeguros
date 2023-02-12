@@ -1325,6 +1325,25 @@
           }
         }
       },
+      "microserviceSeguros.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "Autofac": "6.5.0",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "Newtonsoft.Json": "13.0.2",
+          "microserviceSeguros.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/microserviceSeguros.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/microserviceSeguros.Application.dll": {}
+        }
+      },
       "microserviceSeguros.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1362,6 +1381,25 @@
           "bin/placeholder/microserviceSeguros.Domain.Core.dll": {}
         }
       },
+      "microserviceSeguros.Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "Autofac": "6.5.0",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "Newtonsoft.Json": "13.0.2",
+          "microserviceSeguros.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/microserviceSeguros.Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/microserviceSeguros.Domain.Services.dll": {}
+        }
+      },
       "microserviceSeguros.Infrastruture/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1372,8 +1410,10 @@
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
           "Newtonsoft.Json": "13.0.2",
+          "microserviceSeguros.Application": "1.0.0",
           "microserviceSeguros.Domain": "1.0.0",
-          "microserviceSeguros.Domain.Core": "1.0.0"
+          "microserviceSeguros.Domain.Core": "1.0.0",
+          "microserviceSeguros.Domain.Services": "1.0.0"
         },
         "compile": {
           "bin/placeholder/microserviceSeguros.Infrastruture.dll": {}
@@ -4026,6 +4066,11 @@
         "version.txt"
       ]
     },
+    "microserviceSeguros.Application/1.0.0": {
+      "type": "project",
+      "path": "../microserviceSeguros.Application/microserviceSeguros.Application.csproj",
+      "msbuildProject": "../microserviceSeguros.Application/microserviceSeguros.Application.csproj"
+    },
     "microserviceSeguros.Domain/1.0.0": {
       "type": "project",
       "path": "../microserviceSeguros.Domain/microserviceSeguros.Domain.csproj",
@@ -4035,6 +4080,11 @@
       "type": "project",
       "path": "../microserviceSeguros.Domain.Core/microserviceSeguros.Domain.Core.csproj",
       "msbuildProject": "../microserviceSeguros.Domain.Core/microserviceSeguros.Domain.Core.csproj"
+    },
+    "microserviceSeguros.Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../microserviceSeguros.Domain.Services/microserviceSeguros.Domain.Services.csproj",
+      "msbuildProject": "../microserviceSeguros.Domain.Services/microserviceSeguros.Domain.Services.csproj"
     },
     "microserviceSeguros.Infrastruture/1.0.0": {
       "type": "project",

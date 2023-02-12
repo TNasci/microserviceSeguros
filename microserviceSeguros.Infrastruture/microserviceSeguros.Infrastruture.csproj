@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Autofac" Version="6.5.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
@@ -24,7 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\microserviceSeguros.Application\microserviceSeguros.Application.csproj" />
     <ProjectReference Include="..\microserviceSeguros.Domain.Core\microserviceSeguros.Domain.Core.csproj" />
+    <ProjectReference Include="..\microserviceSeguros.Domain.Services\microserviceSeguros.Domain.Services.csproj" />
     <ProjectReference Include="..\microserviceSeguros.Domain\microserviceSeguros.Domain.csproj" />
   </ItemGroup>
 
