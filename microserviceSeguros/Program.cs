@@ -1,5 +1,6 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using microserviceSeguros.Infrastruture.CrossCutting.IOC;
 using microserviceSeguros.Infrastruture.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,18 +13,20 @@ namespace microserviceSeguros
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
-            //builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
-            //{
-            //    builder.RegisterModule(new ModeuleIOC());
-            //});
+            builder.Host.ConfigureContainer<ContainerBuilder>(builder =>
+            {
+                builder.RegisterModule(new ModeuleIOC());
+            });
 
             builder.Services.AddDbContext<SqlContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+
             });
 
-            // Add services to the container.
+            // Add services to the container.           
             builder.Services.AddAuthorization();
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -46,6 +49,7 @@ namespace microserviceSeguros
             app.MapControllers();
 
             app.Run();
+
         }
     }
 }

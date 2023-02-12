@@ -96,3 +96,7 @@ A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\micr
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Domain.Core.pdb
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\AutoMapper.dll
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Application.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Domain.Services.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Application.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Domain.Services.pdb
