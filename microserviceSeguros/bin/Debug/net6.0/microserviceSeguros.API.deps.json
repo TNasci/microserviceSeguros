@@ -796,7 +796,7 @@
           "microserviceSeguros.Domain.dll": {}
         }
       },
-      "microserviceSeguros.Infrastruture/1.0.0": {
+      "microserviceSeguros.Domain.Core/1.0.0": {
         "dependencies": {
           "Autofac": "6.5.0",
           "Autofac.Extensions.DependencyInjection": "8.0.0",
@@ -804,6 +804,20 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
           "Newtonsoft.Json": "13.0.2",
           "microserviceSeguros.Domain": "1.0.0"
+        },
+        "runtime": {
+          "microserviceSeguros.Domain.Core.dll": {}
+        }
+      },
+      "microserviceSeguros.Infrastruture/1.0.0": {
+        "dependencies": {
+          "Autofac": "6.5.0",
+          "Autofac.Extensions.DependencyInjection": "8.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "Newtonsoft.Json": "13.0.2",
+          "microserviceSeguros.Domain": "1.0.0",
+          "microserviceSeguros.Domain.Core": "1.0.0"
         },
         "runtime": {
           "microserviceSeguros.Infrastruture.dll": {}
@@ -1364,6 +1378,11 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "microserviceSeguros.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "microserviceSeguros.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

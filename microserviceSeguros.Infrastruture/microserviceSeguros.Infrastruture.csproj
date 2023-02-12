@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\microserviceSeguros.Domain.Core\microserviceSeguros.Domain.Core.csproj" />
     <ProjectReference Include="..\microserviceSeguros.Domain\microserviceSeguros.Domain.csproj" />
   </ItemGroup>
 

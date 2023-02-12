@@ -15,3 +15,5 @@ A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Deb
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.pdb
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.genruntimeconfig.cache
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\ref\microserviceSeguros.Infrastruture.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Domain.Core.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Domain.Core.pdb

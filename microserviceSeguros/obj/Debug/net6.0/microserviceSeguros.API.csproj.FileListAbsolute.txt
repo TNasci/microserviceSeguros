@@ -92,3 +92,5 @@ A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\micr
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Infrastruture.dll
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Infrastruture.pdb
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Domain.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Domain.Core.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros\bin\Debug\net6.0\microserviceSeguros.Domain.Core.pdb
