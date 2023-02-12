@@ -12,3 +12,8 @@ A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\obj\Debug
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\obj\Debug\net6.0\microserviceSeguros.Application.pdb
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\obj\Debug\net6.0\microserviceSeguros.Application.genruntimeconfig.cache
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\obj\Debug\net6.0\ref\microserviceSeguros.Application.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\bin\Debug\net6.0\microserviceSeguros.Domain.Core.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\bin\Debug\net6.0\microserviceSeguros.Domain.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\bin\Debug\net6.0\microserviceSeguros.Domain.Core.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\bin\Debug\net6.0\microserviceSeguros.Domain.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Application\obj\Debug\net6.0\microserviceSeguros.Application.csproj.CopyComplete
