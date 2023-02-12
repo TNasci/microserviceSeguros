@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xBKbudnjRIxlvZNl+QWRUKhDF4Ca6CYNnGUOq6VCgGY=",
+  "Source": "microserviceSeguros.API",
+  "BasePath": "_content/microserviceSeguros.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

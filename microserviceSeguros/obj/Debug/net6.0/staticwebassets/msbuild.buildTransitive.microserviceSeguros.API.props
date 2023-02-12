@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\microserviceSeguros.API.props" />
+</Project>
