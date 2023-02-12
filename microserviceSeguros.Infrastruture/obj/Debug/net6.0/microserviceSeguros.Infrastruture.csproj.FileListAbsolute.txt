@@ -1,0 +1,17 @@
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Infrastruture.deps.json
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Infrastruture.runtimeconfig.json
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Infrastruture.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Infrastruture.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Domain.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\bin\Debug\net6.0\microserviceSeguros.Domain.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.csproj.AssemblyReference.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.GeneratedMSBuildEditorConfig.editorconfig
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.AssemblyInfoInputs.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.AssemblyInfo.cs
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.csproj.CoreCompileInputs.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.csproj.CopyComplete
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\refint\microserviceSeguros.Infrastruture.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\microserviceSeguros.Infrastruture.genruntimeconfig.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Infrastruture\obj\Debug\net6.0\ref\microserviceSeguros.Infrastruture.dll

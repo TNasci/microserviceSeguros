@@ -1,0 +1,14 @@
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.deps.json
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.runtimeconfig.json
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.csproj.AssemblyReference.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.GeneratedMSBuildEditorConfig.editorconfig
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.AssemblyInfoInputs.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.AssemblyInfo.cs
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.csproj.CoreCompileInputs.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\refint\microserviceSeguros.Domain.dll
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.pdb
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.genruntimeconfig.cache
+A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\ref\microserviceSeguros.Domain.dll
