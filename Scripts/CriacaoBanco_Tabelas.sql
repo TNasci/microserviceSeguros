@@ -31,5 +31,6 @@ CONSTRAINT FK_Parcelas_Apolice_apoliceId
  REFERENCES apolice (id)
 )
 
-select * from apolice a inner join parcelas p on a.id = p.apoliceId;
+select * from apolice a inner join parcelas p on a.id = p.apoliceId where a.id = 9;
 select * from parcelas
+
