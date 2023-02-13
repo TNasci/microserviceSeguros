@@ -1,27 +1,29 @@
-﻿using microserviceSeguros.Application.DTOs;
+﻿using AutoMapper;
+using microserviceSeguros.Application.DTOs;
 using microserviceSeguros.Application.Interfaces;
-using microserviceSeguros.Application.Interfaces.Mappers;
 using microserviceSeguros.Domain.Core.Interfaces.Services;
+using microserviceSeguros.Domain.Entities;
 
 namespace microserviceSeguros.Application
 {
     public class ApplicationServicePagamento : IApplicationServicePagamento
     {
         private readonly IServicePagamento servicePagamento;
-        private readonly IMapperPagamento mapperPagamento;
+        private readonly IMapper mapper;
 
-        public ApplicationServicePagamento(IServicePagamento servicePagamento, IMapperPagamento mapperPagamento)
+        public ApplicationServicePagamento(IServicePagamento servicePagamento, IMapper mapper)
         {
             this.servicePagamento = servicePagamento;
-            this.mapperPagamento = mapperPagamento;
+            this.mapper = mapper;
         }
 
-        public PagamentoDTO CacularJuros(PagamentoDTO pagamentoDTO)
+        public PagamentoDTO CacularJuros(PagamentoDTO pagamentosDTO)
         {
-            var pagamento = mapperPagamento.MapperDTOToEntity(pagamentoDTO);
+            var pagamento = mapper.Map<Pagamento>(pagamentosDTO);
             var calculo = servicePagamento.CalcularJuros(pagamento);
+            var pagamentoDTO = mapper.Map<PagamentoDTO>(calculo);
 
-            return mapperPagamento.MapperEntityToDTO(calculo);
+            return pagamentoDTO;
         }
     }
 }

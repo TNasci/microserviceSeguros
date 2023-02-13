@@ -1,7 +1,7 @@
 ﻿using Autofac;
+using AutoMapper;
 using microserviceSeguros.Application;
 using microserviceSeguros.Application.Interfaces;
-using microserviceSeguros.Application.Interfaces.Mappers;
 using microserviceSeguros.Application.Mappers;
 using microserviceSeguros.Domain.Core.Interfaces.Repositorys;
 using microserviceSeguros.Domain.Core.Interfaces.Services;
@@ -24,9 +24,18 @@ namespace microserviceSeguros.Infrastruture.CrossCutting.IOC
             builder.RegisterType<ServicePagamento>().As<IServicePagamento>();
             builder.RegisterType<RepositoryApolice>().As<IRepositoryApolice>();
             builder.RegisterType<RepositoryParcela>().As<IRepositoryParcela>();
-            builder.RegisterType<MapperApolice>().As<IMapperApolice>();
-            builder.RegisterType<MapperParcela>().As<IMapperParcela>();
-            builder.RegisterType<MapperPagamento>().As<IMapperPagamento>();
+            builder.Register(ctx => new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new DTOToModelMappingApolice());
+                cfg.AddProfile(new ModelToDTOMappingApolice());
+                cfg.AddProfile(new DTOToModelMappingParcela());
+                cfg.AddProfile(new ModelToDTOMappingParcela());
+                cfg.AddProfile(new DTOToModelMappingPagamento());
+                cfg.AddProfile(new ModelToDTOMappingPagamento());
+            }));
+
+            builder.Register(ctx => ctx.Resolve<MapperConfiguration>().CreateMapper()).As<IMapper>()
+                .InstancePerLifetimeScope();
 
             #endregion IOC
         }

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace microserviceSeguros.API.Controllers
 {
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class ApoliceController : ControllerBase
     {
@@ -15,19 +15,19 @@ namespace microserviceSeguros.API.Controllers
             this.applicationServiceApolice = applicationServiceApolice;
         }
 
-        [HttpGet]
+        [HttpGet("/listApolices")]
         public ActionResult<IEnumerable<string>> Get()
         {
             return Ok(this.applicationServiceApolice.GetAll());
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("/listApolice/{id}")]
         public ActionResult<string> Get(int id)
         {
             return Ok(this.applicationServiceApolice.GetById(id));
         }
 
-        [HttpPost]
+        [HttpPost("/createApolice")]
         public ActionResult Post([FromBody] ApoliceDTO apoliceDTO)
         {
             try
@@ -44,7 +44,7 @@ namespace microserviceSeguros.API.Controllers
             }
         }
 
-        [HttpPut]
+        [HttpPut("/updateApolice")]
         public ActionResult Put([FromBody] ApoliceDTO apoliceDTO)
         {
             try
@@ -61,7 +61,7 @@ namespace microserviceSeguros.API.Controllers
             }
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("/deleteApolice/{id}")]
         public ActionResult<string> Delete([FromBody] ApoliceDTO apoliceDTO)
         {
             try
