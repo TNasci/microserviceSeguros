@@ -18,6 +18,10 @@ namespace microserviceSeguros.Infrastruture.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            //modelBuilder.Entity<Apolice>()
+            //    .HasKey(x => x.Id);
+            //modelBuilder.Entity<Apolice>().HasMany(x => x.parcelas).WithOne(a => a.apolice).HasForeignKey(c => c.apoliceId);
+
             modelBuilder.Entity<Parcela>()
                 .HasOne(p => p.apolice).WithMany(a => a.parcelas)
                 .HasForeignKey(c => c.apoliceId);

@@ -10,6 +10,6 @@
         public DateTime data_alteracao_registro { get; set; }
         public int usuario_criacao_registro { get; set; }
         public int usuario_alteracao_registro { get; set; }
-        public ICollection<Parcela> parcelas { get; set; }
+        public ICollection<Parcela> parcelas { get; set; } = new List<Parcela>();
     }
 }

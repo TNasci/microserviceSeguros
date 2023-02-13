@@ -11,6 +11,6 @@
         public DateTime data_alteracao_registro { get; set; }
         public int usuario_criacao_registro { get; set; }
         public int usuario_alteracao_registro { get; set; }
-        public List<ParcelaDTO> parcelas { get; set; }
+        public IEnumerable<ParcelaDTO> parcelas { get; set; } = new List<ParcelaDTO>();
     }
 }
