@@ -23,6 +23,8 @@ namespace microserviceSeguros.Application.Mappers
                 .ForMember(dest => dest.usuario_criacao_registro, opt => opt.MapFrom(x => x.usuario_criacao_registro))
                 .ForMember(dest => dest.usuario_alteracao_registro, opt => opt.MapFrom(x => x.usuario_alteracao_registro))
                 .ForMember(dest => dest.parcelas, opt => opt.MapFrom(x => x.parcelas));
+
+            CreateMap<Parcela, ParcelaDTO>();
         }
     }
 }

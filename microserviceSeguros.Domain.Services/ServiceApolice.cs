@@ -13,5 +13,13 @@ namespace microserviceSeguros.Domain.Services
         {
             this.repositoryApolice = repositoryApolice;
         }
+
+        public override void Delete(Apolice obj)
+        {
+            var ctxObj = repositoryApolice.GetById(obj.Id);
+            ctxObj.parcelas.Clear();
+            base.Delete(ctxObj);
+        }
+
     }
 }

@@ -13,15 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{F010089A-299C-4415-8D2D-9AE4470702B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microserviceSeguros.Application", "microserviceSeguros.Application\microserviceSeguros.Application.csproj", "{BE73F711-826A-4707-8265-2280E723B9DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microserviceSeguros.Application", "microserviceSeguros.Application\microserviceSeguros.Application.csproj", "{BE73F711-826A-4707-8265-2280E723B9DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microserviceSeguros.Domain", "microserviceSeguros.Domain\microserviceSeguros.Domain.csproj", "{C8B16767-2653-49D2-9E5D-7E807E22020A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microserviceSeguros.Domain", "microserviceSeguros.Domain\microserviceSeguros.Domain.csproj", "{C8B16767-2653-49D2-9E5D-7E807E22020A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microserviceSeguros.Domain.Core", "microserviceSeguros.Domain.Core\microserviceSeguros.Domain.Core.csproj", "{7A063B96-F207-490B-AE9F-36A9538CFFF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microserviceSeguros.Domain.Core", "microserviceSeguros.Domain.Core\microserviceSeguros.Domain.Core.csproj", "{7A063B96-F207-490B-AE9F-36A9538CFFF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microserviceSeguros.Domain.Services", "microserviceSeguros.Domain.Services\microserviceSeguros.Domain.Services.csproj", "{90E239BD-03FB-4B40-A574-92CF57F7E611}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microserviceSeguros.Domain.Services", "microserviceSeguros.Domain.Services\microserviceSeguros.Domain.Services.csproj", "{90E239BD-03FB-4B40-A574-92CF57F7E611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microserviceSeguros.Infrastruture", "microserviceSeguros.Infrastruture\microserviceSeguros.Infrastruture.csproj", "{67EBBE1C-636F-4283-A517-B70CE32D5B09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microserviceSeguros.Infrastruture", "microserviceSeguros.Infrastruture\microserviceSeguros.Infrastruture.csproj", "{67EBBE1C-636F-4283-A517-B70CE32D5B09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{A22B3559-8B60-4EFA-93A8-D4749B685E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microserviceSeguros.Tests", "microserviceSeguros.Tests\microserviceSeguros.Tests.csproj", "{2ED11F93-3036-4FFA-B866-5A1A93B04B84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +57,10 @@ Global
 		{67EBBE1C-636F-4283-A517-B70CE32D5B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67EBBE1C-636F-4283-A517-B70CE32D5B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67EBBE1C-636F-4283-A517-B70CE32D5B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED11F93-3036-4FFA-B866-5A1A93B04B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED11F93-3036-4FFA-B866-5A1A93B04B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED11F93-3036-4FFA-B866-5A1A93B04B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED11F93-3036-4FFA-B866-5A1A93B04B84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,7 @@ Global
 		{7A063B96-F207-490B-AE9F-36A9538CFFF8} = {F1A1A57C-C521-42AF-958E-603EAC2519C5}
 		{90E239BD-03FB-4B40-A574-92CF57F7E611} = {F1A1A57C-C521-42AF-958E-603EAC2519C5}
 		{67EBBE1C-636F-4283-A517-B70CE32D5B09} = {F010089A-299C-4415-8D2D-9AE4470702B3}
+		{2ED11F93-3036-4FFA-B866-5A1A93B04B84} = {A22B3559-8B60-4EFA-93A8-D4749B685E51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E59A8FEC-CCBB-4007-8879-B584A1603FC9}

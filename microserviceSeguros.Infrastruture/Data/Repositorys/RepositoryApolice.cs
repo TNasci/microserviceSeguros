@@ -1,5 +1,6 @@
 ﻿using microserviceSeguros.Domain.Core.Interfaces.Repositorys;
 using microserviceSeguros.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace microserviceSeguros.Infrastruture.Data.Repositorys
 {
@@ -11,6 +12,16 @@ namespace microserviceSeguros.Infrastruture.Data.Repositorys
             : base(sqlContext)
         {
             this.sqlContext = sqlContext;
+        }
+
+        public override IEnumerable<Apolice> GetAll()
+        {
+            return sqlContext.Apolice.Include(a => a.parcelas).ToList();
+        }
+
+        public override Apolice GetById(int id)
+        {
+            return sqlContext.Apolice.Include(a => a.parcelas).FirstOrDefault(b => b.Id == id);
         }
     }
 }

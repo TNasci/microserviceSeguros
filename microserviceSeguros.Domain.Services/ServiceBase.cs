@@ -17,7 +17,7 @@ namespace microserviceSeguros.Domain.Services
             repository.Add(obj);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return repository.GetAll();
         }
@@ -27,12 +27,12 @@ namespace microserviceSeguros.Domain.Services
             return repository.GetById(id);
         }
 
-        public void Delete(TEntity obj)
+        public virtual void Delete(TEntity obj)
         {
             repository.Delete(obj);
         }
 
-        public void Update(TEntity obj)
+        public virtual void Update(TEntity obj)
         {
             repository.Update(obj);
         }

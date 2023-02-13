@@ -6,10 +6,10 @@
         public int cpf { get; set; }
         public string situacao { get; set; }
         public decimal premio_total { get; set; }
-        public DateTime data_criacao_registro { get; set; }
-        public DateTime data_alteracao_registro { get; set; }
+        public DateTime data_criacao_registro { get; set; } 
+        public DateTime data_alteracao_registro { get; set; } 
         public int usuario_criacao_registro { get; set; }
         public int usuario_alteracao_registro { get; set; }
-        public ICollection<Parcela> parcelas { get; set; } = new List<Parcela>();
+        public virtual List<Parcela> parcelas { get; set; }
     }
 }

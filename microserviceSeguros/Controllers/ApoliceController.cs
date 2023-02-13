@@ -62,14 +62,14 @@ namespace microserviceSeguros.API.Controllers
         }
 
         [HttpDelete("/deleteApolice/{id}")]
-        public ActionResult<string> Delete([FromBody] ApoliceDTO apoliceDTO)
+        public ActionResult<string> Delete(int id)
         {
             try
             {
-                if (apoliceDTO == null)
-                    return NotFound();
+                var obj = new ApoliceDTO();
+                obj.Id = id;
 
-                this.applicationServiceApolice.Delete(apoliceDTO);
+                this.applicationServiceApolice.Delete(obj);
                 return Ok("Apolice Excluida com sucesso!");
             }
             catch (Exception ex)

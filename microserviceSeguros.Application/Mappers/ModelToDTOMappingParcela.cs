@@ -14,8 +14,8 @@ namespace microserviceSeguros.Application.Mappers
         private void ParcelaDTOMap()
         {
             CreateMap<Parcela, ParcelaDTO>()
-                .ForMember(dest => dest.Id, opt => opt.Ignore())
-                .ForMember(dest => dest.apoliceId, opt => opt.Ignore())
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(x => x.Id))
+                .ForMember(dest => dest.apoliceId, opt => opt.MapFrom(x => x.apoliceId))
                 .ForMember(dest => dest.premio, opt => opt.MapFrom(x => x.premio))
                 .ForMember(dest => dest.forma_pagamento, opt => opt.MapFrom(x => x.forma_pagamento))
                 .ForMember(dest => dest.data_pagamento, opt => opt.MapFrom(x => x.data_pagamento))

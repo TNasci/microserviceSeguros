@@ -14,7 +14,7 @@ namespace microserviceSeguros.Application.Mappers
         private void ApoliceMap()
         {
             CreateMap<ApoliceDTO, Apolice>()
-                .ForMember(dest => dest.Id, opt => opt.Ignore())
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(x => x.Id))
                 .ForMember(dest => dest.descricao, opt => opt.MapFrom(x => x.descricao))
                 .ForMember(dest => dest.cpf, opt => opt.MapFrom(x => x.cpf))
                 .ForMember(dest => dest.situacao, opt => opt.MapFrom(x => x.situacao))
@@ -23,7 +23,7 @@ namespace microserviceSeguros.Application.Mappers
                 .ForMember(dest => dest.data_alteracao_registro, opt => opt.Ignore())
                 .ForMember(dest => dest.usuario_criacao_registro, opt => opt.MapFrom(x => x.usuario_criacao_registro))
                 .ForMember(dest => dest.usuario_alteracao_registro, opt => opt.MapFrom(x => x.usuario_alteracao_registro))
-                .ForMember(dest => dest.parcelas, opt => opt.MapFrom(s => s.parcelas.Select(m => m.apoliceId)))
+                .ForMember(dest => dest.parcelas, opt => opt.MapFrom(s => s.parcelas.Select(m => m)))
                 .ReverseMap();
 
         }

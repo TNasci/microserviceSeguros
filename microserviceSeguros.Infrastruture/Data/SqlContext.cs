@@ -7,6 +7,7 @@ namespace microserviceSeguros.Infrastruture.Data
     {
         public SqlContext()
         {
+         
         }
 
         public SqlContext(DbContextOptions<SqlContext> options) : base(options)
@@ -18,19 +19,20 @@ namespace microserviceSeguros.Infrastruture.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Apolice>()
-            //    .HasKey(x => x.Id);
-            //modelBuilder.Entity<Apolice>().HasMany(x => x.parcelas).WithOne(a => a.apolice).HasForeignKey(c => c.apoliceId);
 
             modelBuilder.Entity<Parcela>()
-                .HasOne(p => p.apolice).WithMany(a => a.parcelas)
+                .HasOne(p => p.apolice)
+                .WithMany(a => a.parcelas)
                 .HasForeignKey(c => c.apoliceId);
+                
+                
         }
 
         public override int SaveChanges()
         {
-            foreach (var entry in ChangeTracker.Entries().Where(entry => entry.GetType().GetProperty("data_criacao_registro") != null))
+            foreach (var entry in ChangeTracker.Entries().Where(entry => entry.Properties.Any(p => p.Metadata.Name == "data_criacao_registro")))
             {
+
                 if (entry.State == EntityState.Added)
                 {
                     entry.Property("data_criacao_registro").CurrentValue = DateTime.Now;

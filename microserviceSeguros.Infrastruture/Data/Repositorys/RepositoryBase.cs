@@ -1,5 +1,6 @@
 ﻿using microserviceSeguros.Domain.Core.Interfaces.Repositorys;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection.Metadata;
 
 namespace microserviceSeguros.Infrastruture.Data.Repositorys
 {
@@ -25,12 +26,12 @@ namespace microserviceSeguros.Infrastruture.Data.Repositorys
             }
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return sqlContext.Set<TEntity>().ToList();
         }
 
-        public TEntity GetById(int id)
+        public  virtual TEntity GetById(int id)
         {
             return sqlContext.Set<TEntity>().Find(id);
         }
