@@ -110,6 +110,32 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "createPagemanto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"dataPago\": \"2023-02-15\",\r\n  \"data_pagamento\": \"2023-02-13\",\r\n  \"tipo\": \"cartao\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_seguros}}/Pagamento",
+					"host": [
+						"{{base_seguros}}"
+					],
+					"path": [
+						"Pagamento"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [
