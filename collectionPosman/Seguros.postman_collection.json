@@ -1,0 +1,141 @@
+{
+	"info": {
+		"_postman_id": "fa8fa8ab-55ca-46fb-b6a1-4dd729d95101",
+		"name": "Seguros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7931790"
+	},
+	"item": [
+		{
+			"name": "GetAllApolices",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_seguros}}/listApolices",
+					"host": [
+						"{{base_seguros}}"
+					],
+					"path": [
+						"listApolices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_seguros}}/listApolice/3",
+					"host": [
+						"{{base_seguros}}"
+					],
+					"path": [
+						"listApolice",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateApolice",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"descricao\": \"Teste\",\r\n  \"cpf\": 123456,\r\n  \"situacao\": \"Teste\",\r\n  \"premio_total\": 2000.0,\r\n  \"data_criacao_registro\": \"2023-02-13\",\r\n  \"data_alteracao_registro\": \"2023-02-12\",\r\n  \"usuario_criacao_registro\": 1,\r\n  \"usuario_alteracao_registro\": 1,\r\n  \"parcelas\": [\r\n    {\r\n      \"premio\": 1000.0,\r\n      \"forma_pagamento\": \"cartao\",\r\n      \"data_pagamento\": \"2023-02-12\",\r\n      \"data_pago\": \"2023-02-12\",\r\n      \"juros\": 3,\r\n      \"situacao\": \"aprovado\",\r\n      \"data_criacao_registro\": \"2023-02-12\",\r\n      \"data_alteracao_registro\": \"2023-02-12\",\r\n      \"usuario_criacao_registro\": 1,\r\n      \"usuario_alteracao_registro\": 1\r\n    },\r\n        {\r\n      \"premio\": 1000.0,\r\n      \"forma_pagamento\": \"cartao\",\r\n      \"data_pagamento\": \"2023-02-12\",\r\n      \"data_pago\": \"2023-02-12\",\r\n      \"juros\": 3,\r\n      \"situacao\": \"aprovado\",\r\n      \"data_criacao_registro\": \"2023-02-12\",\r\n      \"data_alteracao_registro\": \"2023-02-12\",\r\n      \"usuario_criacao_registro\": 1,\r\n      \"usuario_alteracao_registro\": 1\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_seguros}}/createApolice",
+					"host": [
+						"{{base_seguros}}"
+					],
+					"path": [
+						"createApolice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateApolice",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Id\" : \"1\",\r\n  \"descricao\": \"Thiago\",\r\n  \"cpf\": 123456,\r\n  \"situacao\": \"Teste\",\r\n  \"premio_total\": 2000.0,\r\n  \"data_criacao_registro\": \"2023-02-13\",\r\n  \"data_alteracao_registro\": \"2023-02-12\",\r\n  \"usuario_criacao_registro\": 1,\r\n  \"usuario_alteracao_registro\": 1,\r\n  \"parcelas\": [\r\n    {\r\n      \"premio\": 2000.0,\r\n      \"forma_pagamento\": \"cartao\",\r\n      \"data_pagamento\": \"2023-02-12\",\r\n      \"data_pago\": \"2023-02-12\",\r\n      \"juros\": 3,\r\n      \"situacao\": \"aprovado\",\r\n      \"data_criacao_registro\": \"2023-02-12\",\r\n      \"data_alteracao_registro\": \"2023-02-12\",\r\n      \"usuario_criacao_registro\": 1,\r\n      \"usuario_alteracao_registro\": 1\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_seguros}}/updateApolice",
+					"host": [
+						"{{base_seguros}}"
+					],
+					"path": [
+						"updateApolice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteApolice",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_seguros}}/deleteApolice/3",
+					"host": [
+						"{{base_seguros}}"
+					],
+					"path": [
+						"deleteApolice",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_seguros",
+			"value": "https://localhost:44393"
+		}
+	]
+}
