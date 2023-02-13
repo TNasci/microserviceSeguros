@@ -4114,11 +4114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros\\microserviceSeguros.API.csproj",
+      "projectUniqueName": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros\\microserviceSeguros.API.csproj",
       "projectName": "microserviceSeguros.API",
-      "projectPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros\\microserviceSeguros.API.csproj",
+      "projectPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros\\microserviceSeguros.API.csproj",
       "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-      "outputPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros\\obj\\",
+      "outputPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4140,8 +4140,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Infrastruture\\microserviceSeguros.Infrastruture.csproj": {
-              "projectPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Infrastruture\\microserviceSeguros.Infrastruture.csproj"
+            "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Infrastruture\\microserviceSeguros.Infrastruture.csproj": {
+              "projectPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Infrastruture\\microserviceSeguros.Infrastruture.csproj"
             }
           }
         }

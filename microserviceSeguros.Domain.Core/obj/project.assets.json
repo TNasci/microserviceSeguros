@@ -3714,11 +3714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain.Core\\microserviceSeguros.Domain.Core.csproj",
+      "projectUniqueName": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain.Core\\microserviceSeguros.Domain.Core.csproj",
       "projectName": "microserviceSeguros.Domain.Core",
-      "projectPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain.Core\\microserviceSeguros.Domain.Core.csproj",
+      "projectPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain.Core\\microserviceSeguros.Domain.Core.csproj",
       "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-      "outputPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain.Core\\obj\\",
+      "outputPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3740,8 +3740,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj": {
-              "projectPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj"
+            "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj": {
+              "projectPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj"
             }
           }
         }

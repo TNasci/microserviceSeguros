@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M/rJBYCF9Ziv0tcgN5hw8teaCA3j21bUlzIi5KQmYaM3Xh3C026IlxR8hP/YC41pDHadKTHWarKB8cHWE4JLGQ==",
+  "dgSpecHash": "3r8iaK9Tr2ltt1x7BZDGdII7NVpyKKX9sKgVCELOtSoQYnu3VScKBBm4nUQQt6EKT3uwNhEifv6/nVFkm0BBjw==",
   "success": true,
-  "projectFilePath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros\\microserviceSeguros.API.csproj",
+  "projectFilePath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros\\microserviceSeguros.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuário\\.nuget\\packages\\autofac\\6.5.0\\autofac.6.5.0.nupkg.sha512",
     "C:\\Users\\Usuário\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

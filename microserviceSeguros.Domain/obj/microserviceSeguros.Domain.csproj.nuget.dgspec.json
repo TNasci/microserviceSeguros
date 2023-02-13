@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj": {}
+    "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj": {}
   },
   "projects": {
-    "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj": {
+    "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj",
+        "projectUniqueName": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj",
         "projectName": "microserviceSeguros.Domain",
-        "projectPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj",
+        "projectPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain\\microserviceSeguros.Domain.csproj",
         "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
-        "outputPath": "A:\\Cursos\\Projetos\\microserviceSeguros\\microserviceSeguros.Domain\\obj\\",
+        "outputPath": "A:\\Cursos\\microserviceSeguros\\microserviceSeguros.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

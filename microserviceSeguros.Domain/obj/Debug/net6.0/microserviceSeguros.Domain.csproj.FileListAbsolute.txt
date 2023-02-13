@@ -12,3 +12,17 @@ A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.pdb
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.genruntimeconfig.cache
 A:\Cursos\Projetos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\ref\microserviceSeguros.Domain.dll
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.deps.json
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.runtimeconfig.json
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.dll
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\bin\Debug\net6.0\microserviceSeguros.Domain.pdb
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.csproj.AssemblyReference.cache
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.GeneratedMSBuildEditorConfig.editorconfig
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.AssemblyInfoInputs.cache
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.AssemblyInfo.cs
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.csproj.CoreCompileInputs.cache
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.dll
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\refint\microserviceSeguros.Domain.dll
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.pdb
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\microserviceSeguros.Domain.genruntimeconfig.cache
+A:\Cursos\microserviceSeguros\microserviceSeguros.Domain\obj\Debug\net6.0\ref\microserviceSeguros.Domain.dll
